@@ -23,7 +23,7 @@ public class ContractService {
 			contract.getInstallments().add(new Installment(dueDate, fullQuota));
 		}
 	}
-	//Function to add months to a date
+	
 	private Date addMonths(Date date, int N) {
 		Calendar calendar = Calendar.getInstance();
 		calendar.setTime(date);
